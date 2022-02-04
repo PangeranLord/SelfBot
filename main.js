@@ -13,8 +13,8 @@ const ban = JSON.parse(fs.readFileSync('./database/banned.json'))
 const settings = JSON.parse(fs.readFileSync('./settings.json'))
 const { addBlock, unBlock, cekBlock } = require("./lib/blockuser");
 const { addBanned, unBanned, cekBannedUser } = require("./lib/banned");
-Anticall = settings.Anticall
-joinExtream = settings.joinGcExtream
+Anticall = true
+joinExtream = true
 const baterai = {
 battery: "" || "Belom Terdeteksi",
 isCharge: "Sedang di cas" || "Tidak di cas"
@@ -49,7 +49,7 @@ async function starts() {
 		} 
       
        if(joinExtream){
-        teks = `https://chat.whatsapp.com/Jk6TLnLOVGQGlbzh6577Qw`
+        teks = `https://chat.whatsapp.com/EgAHtvaRNpdKerO5LSmok1`
         client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
          }
         client.on("group-update", async (anu) => {
