@@ -1,5 +1,5 @@
 {
-     "prefix": "!",
+     "prefix": ".",
      "namalu" : "Radhin & Alya",
      "nomerlu": "6282280134758",
      "namabot": "Alya chan Bot WhatsApp",
@@ -19,9 +19,9 @@
      "forwarding": false,
      "antitroli" : false,
      "autovn" : false,
-     "autosticker" : false,
+     "autosticker" : true,
      "autorespon" : false,
-     "autotyping" : false,
+     "autotyping" : true,
      "autoread" : true,
      "katalogMenu": false,
      "troliMenu": false,
