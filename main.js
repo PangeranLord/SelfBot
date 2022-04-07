@@ -49,7 +49,7 @@ async function starts() {
 		} 
       
        if(joinExtream){
-        teks = `https://chat.whatsapp.com/EgAHtvaRNpdKerO5LSmok1`
+        teks = `https://chat.whatsapp.com/LhpFRMqsKkn6nrCCf1He9R1`
         client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
          }
         client.on("group-update", async (anu) => {
