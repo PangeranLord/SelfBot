@@ -55,8 +55,7 @@
     "scraper-instagram": "^1.0.17",
     "spinnies": "^0.5.1",
     "tiktok-scraper-without-watermark": "^1.0.6",
-    "tod-api": "^1.0.5",
-    
+    "tod-api": "^1.0.5"
   },
   "scripts": {
     "start": "node main",
