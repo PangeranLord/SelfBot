@@ -33,7 +33,7 @@
      "welcomeType2": true,
      "welcomeType3": false,
      "chatBot" : true ,
-     "teksChat" : "Mohon tunggu sebentar... jika tidak ada respon silahkan lapor ke owner",
+     "teksChat" : "Mohon tunggu sebentar⏳... jika tidak ada respon silahkan lapor ke owner",
      "totalForward" : 1000000,
      "explain": false,
      "gamewaktu": 60,
